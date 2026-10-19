@@ -1,0 +1,20 @@
+# GPU execution: choose a torch build matching your CUDA installation.
+torch
+transformers>=4.51
+accelerate
+datasets
+numpy
+scipy
+math-verify
+tqdm
+openai
+sentence-transformers
+sentencepiece
+protobuf
+scikit-learn
+
+# Author SelfCheck-NLI used by the normal selfcheckgpt methods.
+selfcheckgpt @ git+https://github.com/potsawee/selfcheckgpt.git@19b492a2a380931bf1ed0ca94a9565c9aa7b03e1
+spacy
+
+lm-polygraph @ git+https://github.com/IINemo/lm-polygraph.git@1b24f22d0cd426d3f89e7c98dc4b95115b6f3586

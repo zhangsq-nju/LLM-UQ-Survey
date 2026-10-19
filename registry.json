@@ -1,0 +1,1931 @@
+{
+  "max_seq_prob__qwen__gsm8k__answer_only": {
+    "method": "max_seq_prob",
+    "family": "qwen",
+    "dataset": "gsm8k",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "mean_tok_ent__qwen__gsm8k__answer_only": {
+    "method": "mean_tok_ent",
+    "family": "qwen",
+    "dataset": "gsm8k",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "max_tok_prob__qwen__gsm8k__answer_only": {
+    "method": "max_tok_prob",
+    "family": "qwen",
+    "dataset": "gsm8k",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "ppl__qwen__gsm8k__answer_only": {
+    "method": "ppl",
+    "family": "qwen",
+    "dataset": "gsm8k",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "bsdetector__qwen__gsm8k__answer_only": {
+    "method": "bsdetector",
+    "family": "qwen",
+    "dataset": "gsm8k",
+    "setting": "answer_only",
+    "script": "UQ-methods/bsdetector__qwen__gsm8k__answer_only.py"
+  },
+  "selfcheckgpt__qwen__gsm8k__answer_only": {
+    "method": "selfcheckgpt",
+    "family": "qwen",
+    "dataset": "gsm8k",
+    "setting": "answer_only",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "num_set__qwen__gsm8k__answer_only": {
+    "method": "num_set",
+    "family": "qwen",
+    "dataset": "gsm8k",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "eigv__qwen__gsm8k__answer_only": {
+    "method": "eigv",
+    "family": "qwen",
+    "dataset": "gsm8k",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "deg__qwen__gsm8k__answer_only": {
+    "method": "deg",
+    "family": "qwen",
+    "dataset": "gsm8k",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "ecc__qwen__gsm8k__answer_only": {
+    "method": "ecc",
+    "family": "qwen",
+    "dataset": "gsm8k",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "conu__qwen__gsm8k__answer_only": {
+    "method": "conu",
+    "family": "qwen",
+    "dataset": "gsm8k",
+    "setting": "answer_only",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "semantic_entropy__qwen__gsm8k__answer_only": {
+    "method": "semantic_entropy",
+    "family": "qwen",
+    "dataset": "gsm8k",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "semantic_density__qwen__gsm8k__answer_only": {
+    "method": "semantic_density",
+    "family": "qwen",
+    "dataset": "gsm8k",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "mars__qwen__gsm8k__answer_only": {
+    "method": "mars",
+    "family": "qwen",
+    "dataset": "gsm8k",
+    "setting": "answer_only",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "verbalized_probability__qwen__gsm8k__answer_only": {
+    "method": "verbalized_probability",
+    "family": "qwen",
+    "dataset": "gsm8k",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "p_true__qwen__gsm8k__answer_only": {
+    "method": "p_true",
+    "family": "qwen",
+    "dataset": "gsm8k",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "max_seq_prob__qwen__triviaqa__answer_only": {
+    "method": "max_seq_prob",
+    "family": "qwen",
+    "dataset": "triviaqa",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "mean_tok_ent__qwen__triviaqa__answer_only": {
+    "method": "mean_tok_ent",
+    "family": "qwen",
+    "dataset": "triviaqa",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "max_tok_prob__qwen__triviaqa__answer_only": {
+    "method": "max_tok_prob",
+    "family": "qwen",
+    "dataset": "triviaqa",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "ppl__qwen__triviaqa__answer_only": {
+    "method": "ppl",
+    "family": "qwen",
+    "dataset": "triviaqa",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "bsdetector__qwen__triviaqa__answer_only": {
+    "method": "bsdetector",
+    "family": "qwen",
+    "dataset": "triviaqa",
+    "setting": "answer_only",
+    "script": "UQ-methods/bsdetector__qwen__triviaqa__answer_only.py"
+  },
+  "selfcheckgpt__qwen__triviaqa__answer_only": {
+    "method": "selfcheckgpt",
+    "family": "qwen",
+    "dataset": "triviaqa",
+    "setting": "answer_only",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "num_set__qwen__triviaqa__answer_only": {
+    "method": "num_set",
+    "family": "qwen",
+    "dataset": "triviaqa",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "eigv__qwen__triviaqa__answer_only": {
+    "method": "eigv",
+    "family": "qwen",
+    "dataset": "triviaqa",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "deg__qwen__triviaqa__answer_only": {
+    "method": "deg",
+    "family": "qwen",
+    "dataset": "triviaqa",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "ecc__qwen__triviaqa__answer_only": {
+    "method": "ecc",
+    "family": "qwen",
+    "dataset": "triviaqa",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "conu__qwen__triviaqa__answer_only": {
+    "method": "conu",
+    "family": "qwen",
+    "dataset": "triviaqa",
+    "setting": "answer_only",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "semantic_entropy__qwen__triviaqa__answer_only": {
+    "method": "semantic_entropy",
+    "family": "qwen",
+    "dataset": "triviaqa",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "semantic_density__qwen__triviaqa__answer_only": {
+    "method": "semantic_density",
+    "family": "qwen",
+    "dataset": "triviaqa",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "verbalized_probability__qwen__triviaqa__answer_only": {
+    "method": "verbalized_probability",
+    "family": "qwen",
+    "dataset": "triviaqa",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "p_true__qwen__triviaqa__answer_only": {
+    "method": "p_true",
+    "family": "qwen",
+    "dataset": "triviaqa",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "max_seq_prob__qwen__humaneval__answer_only": {
+    "method": "max_seq_prob",
+    "family": "qwen",
+    "dataset": "humaneval",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "mean_tok_ent__qwen__humaneval__answer_only": {
+    "method": "mean_tok_ent",
+    "family": "qwen",
+    "dataset": "humaneval",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "max_tok_prob__qwen__humaneval__answer_only": {
+    "method": "max_tok_prob",
+    "family": "qwen",
+    "dataset": "humaneval",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "ppl__qwen__humaneval__answer_only": {
+    "method": "ppl",
+    "family": "qwen",
+    "dataset": "humaneval",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "bsdetector__qwen__humaneval__answer_only": {
+    "method": "bsdetector",
+    "family": "qwen",
+    "dataset": "humaneval",
+    "setting": "answer_only",
+    "script": "UQ-methods/bsdetector__qwen__humaneval__answer_only.py"
+  },
+  "selfcheckgpt__qwen__humaneval__answer_only": {
+    "method": "selfcheckgpt",
+    "family": "qwen",
+    "dataset": "humaneval",
+    "setting": "answer_only",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "num_set__qwen__humaneval__answer_only": {
+    "method": "num_set",
+    "family": "qwen",
+    "dataset": "humaneval",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "eigv__qwen__humaneval__answer_only": {
+    "method": "eigv",
+    "family": "qwen",
+    "dataset": "humaneval",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "deg__qwen__humaneval__answer_only": {
+    "method": "deg",
+    "family": "qwen",
+    "dataset": "humaneval",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "ecc__qwen__humaneval__answer_only": {
+    "method": "ecc",
+    "family": "qwen",
+    "dataset": "humaneval",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "conu__qwen__humaneval__answer_only": {
+    "method": "conu",
+    "family": "qwen",
+    "dataset": "humaneval",
+    "setting": "answer_only",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "semantic_entropy__qwen__humaneval__answer_only": {
+    "method": "semantic_entropy",
+    "family": "qwen",
+    "dataset": "humaneval",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "semantic_density__qwen__humaneval__answer_only": {
+    "method": "semantic_density",
+    "family": "qwen",
+    "dataset": "humaneval",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "mars__qwen__humaneval__answer_only": {
+    "method": "mars",
+    "family": "qwen",
+    "dataset": "humaneval",
+    "setting": "answer_only",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "verbalized_probability__qwen__humaneval__answer_only": {
+    "method": "verbalized_probability",
+    "family": "qwen",
+    "dataset": "humaneval",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "p_true__qwen__humaneval__answer_only": {
+    "method": "p_true",
+    "family": "qwen",
+    "dataset": "humaneval",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "max_seq_prob__llama__gsm8k__answer_only": {
+    "method": "max_seq_prob",
+    "family": "llama",
+    "dataset": "gsm8k",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "mean_tok_ent__llama__gsm8k__answer_only": {
+    "method": "mean_tok_ent",
+    "family": "llama",
+    "dataset": "gsm8k",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "max_tok_prob__llama__gsm8k__answer_only": {
+    "method": "max_tok_prob",
+    "family": "llama",
+    "dataset": "gsm8k",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "ppl__llama__gsm8k__answer_only": {
+    "method": "ppl",
+    "family": "llama",
+    "dataset": "gsm8k",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "bsdetector__llama__gsm8k__answer_only": {
+    "method": "bsdetector",
+    "family": "llama",
+    "dataset": "gsm8k",
+    "setting": "answer_only",
+    "script": "UQ-methods/bsdetector__llama__gsm8k__answer_only.py"
+  },
+  "selfcheckgpt__llama__gsm8k__answer_only": {
+    "method": "selfcheckgpt",
+    "family": "llama",
+    "dataset": "gsm8k",
+    "setting": "answer_only",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "num_set__llama__gsm8k__answer_only": {
+    "method": "num_set",
+    "family": "llama",
+    "dataset": "gsm8k",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "eigv__llama__gsm8k__answer_only": {
+    "method": "eigv",
+    "family": "llama",
+    "dataset": "gsm8k",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "deg__llama__gsm8k__answer_only": {
+    "method": "deg",
+    "family": "llama",
+    "dataset": "gsm8k",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "ecc__llama__gsm8k__answer_only": {
+    "method": "ecc",
+    "family": "llama",
+    "dataset": "gsm8k",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "conu__llama__gsm8k__answer_only": {
+    "method": "conu",
+    "family": "llama",
+    "dataset": "gsm8k",
+    "setting": "answer_only",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "semantic_entropy__llama__gsm8k__answer_only": {
+    "method": "semantic_entropy",
+    "family": "llama",
+    "dataset": "gsm8k",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "semantic_density__llama__gsm8k__answer_only": {
+    "method": "semantic_density",
+    "family": "llama",
+    "dataset": "gsm8k",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "mars__llama__gsm8k__answer_only": {
+    "method": "mars",
+    "family": "llama",
+    "dataset": "gsm8k",
+    "setting": "answer_only",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "verbalized_probability__llama__gsm8k__answer_only": {
+    "method": "verbalized_probability",
+    "family": "llama",
+    "dataset": "gsm8k",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "p_true__llama__gsm8k__answer_only": {
+    "method": "p_true",
+    "family": "llama",
+    "dataset": "gsm8k",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "max_seq_prob__llama__triviaqa__answer_only": {
+    "method": "max_seq_prob",
+    "family": "llama",
+    "dataset": "triviaqa",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "mean_tok_ent__llama__triviaqa__answer_only": {
+    "method": "mean_tok_ent",
+    "family": "llama",
+    "dataset": "triviaqa",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "max_tok_prob__llama__triviaqa__answer_only": {
+    "method": "max_tok_prob",
+    "family": "llama",
+    "dataset": "triviaqa",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "ppl__llama__triviaqa__answer_only": {
+    "method": "ppl",
+    "family": "llama",
+    "dataset": "triviaqa",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "bsdetector__llama__triviaqa__answer_only": {
+    "method": "bsdetector",
+    "family": "llama",
+    "dataset": "triviaqa",
+    "setting": "answer_only",
+    "script": "UQ-methods/bsdetector__llama__triviaqa__answer_only.py"
+  },
+  "selfcheckgpt__llama__triviaqa__answer_only": {
+    "method": "selfcheckgpt",
+    "family": "llama",
+    "dataset": "triviaqa",
+    "setting": "answer_only",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "num_set__llama__triviaqa__answer_only": {
+    "method": "num_set",
+    "family": "llama",
+    "dataset": "triviaqa",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "eigv__llama__triviaqa__answer_only": {
+    "method": "eigv",
+    "family": "llama",
+    "dataset": "triviaqa",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "deg__llama__triviaqa__answer_only": {
+    "method": "deg",
+    "family": "llama",
+    "dataset": "triviaqa",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "ecc__llama__triviaqa__answer_only": {
+    "method": "ecc",
+    "family": "llama",
+    "dataset": "triviaqa",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "conu__llama__triviaqa__answer_only": {
+    "method": "conu",
+    "family": "llama",
+    "dataset": "triviaqa",
+    "setting": "answer_only",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "semantic_entropy__llama__triviaqa__answer_only": {
+    "method": "semantic_entropy",
+    "family": "llama",
+    "dataset": "triviaqa",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "semantic_density__llama__triviaqa__answer_only": {
+    "method": "semantic_density",
+    "family": "llama",
+    "dataset": "triviaqa",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "mars__llama__triviaqa__answer_only": {
+    "method": "mars",
+    "family": "llama",
+    "dataset": "triviaqa",
+    "setting": "answer_only",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "verbalized_probability__llama__triviaqa__answer_only": {
+    "method": "verbalized_probability",
+    "family": "llama",
+    "dataset": "triviaqa",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "max_seq_prob__llama__humaneval__answer_only": {
+    "method": "max_seq_prob",
+    "family": "llama",
+    "dataset": "humaneval",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "mean_tok_ent__llama__humaneval__answer_only": {
+    "method": "mean_tok_ent",
+    "family": "llama",
+    "dataset": "humaneval",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "max_tok_prob__llama__humaneval__answer_only": {
+    "method": "max_tok_prob",
+    "family": "llama",
+    "dataset": "humaneval",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "ppl__llama__humaneval__answer_only": {
+    "method": "ppl",
+    "family": "llama",
+    "dataset": "humaneval",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "bsdetector__llama__humaneval__answer_only": {
+    "method": "bsdetector",
+    "family": "llama",
+    "dataset": "humaneval",
+    "setting": "answer_only",
+    "script": "UQ-methods/bsdetector__llama__humaneval__answer_only.py"
+  },
+  "selfcheckgpt__llama__humaneval__answer_only": {
+    "method": "selfcheckgpt",
+    "family": "llama",
+    "dataset": "humaneval",
+    "setting": "answer_only",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "num_set__llama__humaneval__answer_only": {
+    "method": "num_set",
+    "family": "llama",
+    "dataset": "humaneval",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "eigv__llama__humaneval__answer_only": {
+    "method": "eigv",
+    "family": "llama",
+    "dataset": "humaneval",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "deg__llama__humaneval__answer_only": {
+    "method": "deg",
+    "family": "llama",
+    "dataset": "humaneval",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "ecc__llama__humaneval__answer_only": {
+    "method": "ecc",
+    "family": "llama",
+    "dataset": "humaneval",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "conu__llama__humaneval__answer_only": {
+    "method": "conu",
+    "family": "llama",
+    "dataset": "humaneval",
+    "setting": "answer_only",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "semantic_entropy__llama__humaneval__answer_only": {
+    "method": "semantic_entropy",
+    "family": "llama",
+    "dataset": "humaneval",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "semantic_density__llama__humaneval__answer_only": {
+    "method": "semantic_density",
+    "family": "llama",
+    "dataset": "humaneval",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "mars__llama__humaneval__answer_only": {
+    "method": "mars",
+    "family": "llama",
+    "dataset": "humaneval",
+    "setting": "answer_only",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "verbalized_probability__llama__humaneval__answer_only": {
+    "method": "verbalized_probability",
+    "family": "llama",
+    "dataset": "humaneval",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "p_true__llama__humaneval__answer_only": {
+    "method": "p_true",
+    "family": "llama",
+    "dataset": "humaneval",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "bsdetector__deepseek__gsm8k__answer_only": {
+    "method": "bsdetector",
+    "family": "deepseek",
+    "dataset": "gsm8k",
+    "setting": "answer_only",
+    "script": "UQ-methods/bsdetector__deepseek__gsm8k__answer_only.py"
+  },
+  "selfcheckgpt__deepseek__gsm8k__answer_only": {
+    "method": "selfcheckgpt",
+    "family": "deepseek",
+    "dataset": "gsm8k",
+    "setting": "answer_only",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "num_set__deepseek__gsm8k__answer_only": {
+    "method": "num_set",
+    "family": "deepseek",
+    "dataset": "gsm8k",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "eigv__deepseek__gsm8k__answer_only": {
+    "method": "eigv",
+    "family": "deepseek",
+    "dataset": "gsm8k",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "deg__deepseek__gsm8k__answer_only": {
+    "method": "deg",
+    "family": "deepseek",
+    "dataset": "gsm8k",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "ecc__deepseek__gsm8k__answer_only": {
+    "method": "ecc",
+    "family": "deepseek",
+    "dataset": "gsm8k",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "conu__deepseek__gsm8k__answer_only": {
+    "method": "conu",
+    "family": "deepseek",
+    "dataset": "gsm8k",
+    "setting": "answer_only",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "selfcheckgpt__deepseek__triviaqa__answer_only": {
+    "method": "selfcheckgpt",
+    "family": "deepseek",
+    "dataset": "triviaqa",
+    "setting": "answer_only",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "num_set__deepseek__triviaqa__answer_only": {
+    "method": "num_set",
+    "family": "deepseek",
+    "dataset": "triviaqa",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "eigv__deepseek__triviaqa__answer_only": {
+    "method": "eigv",
+    "family": "deepseek",
+    "dataset": "triviaqa",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "deg__deepseek__triviaqa__answer_only": {
+    "method": "deg",
+    "family": "deepseek",
+    "dataset": "triviaqa",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "ecc__deepseek__triviaqa__answer_only": {
+    "method": "ecc",
+    "family": "deepseek",
+    "dataset": "triviaqa",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "conu__deepseek__triviaqa__answer_only": {
+    "method": "conu",
+    "family": "deepseek",
+    "dataset": "triviaqa",
+    "setting": "answer_only",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "bsdetector__deepseek__humaneval__answer_only": {
+    "method": "bsdetector",
+    "family": "deepseek",
+    "dataset": "humaneval",
+    "setting": "answer_only",
+    "script": "UQ-methods/bsdetector__deepseek__humaneval__answer_only.py"
+  },
+  "selfcheckgpt__deepseek__humaneval__answer_only": {
+    "method": "selfcheckgpt",
+    "family": "deepseek",
+    "dataset": "humaneval",
+    "setting": "answer_only",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "num_set__deepseek__humaneval__answer_only": {
+    "method": "num_set",
+    "family": "deepseek",
+    "dataset": "humaneval",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "eigv__deepseek__humaneval__answer_only": {
+    "method": "eigv",
+    "family": "deepseek",
+    "dataset": "humaneval",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "deg__deepseek__humaneval__answer_only": {
+    "method": "deg",
+    "family": "deepseek",
+    "dataset": "humaneval",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "ecc__deepseek__humaneval__answer_only": {
+    "method": "ecc",
+    "family": "deepseek",
+    "dataset": "humaneval",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "conu__deepseek__humaneval__answer_only": {
+    "method": "conu",
+    "family": "deepseek",
+    "dataset": "humaneval",
+    "setting": "answer_only",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "max_seq_prob__qwen__gsm8k__reasoning_augmented": {
+    "method": "max_seq_prob",
+    "family": "qwen",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "mean_tok_ent__qwen__gsm8k__reasoning_augmented": {
+    "method": "mean_tok_ent",
+    "family": "qwen",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "max_tok_prob__qwen__gsm8k__reasoning_augmented": {
+    "method": "max_tok_prob",
+    "family": "qwen",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "ppl__qwen__gsm8k__reasoning_augmented": {
+    "method": "ppl",
+    "family": "qwen",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "bsdetector__qwen__gsm8k__reasoning_augmented": {
+    "method": "bsdetector",
+    "family": "qwen",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/bsdetector__qwen__gsm8k__reasoning_augmented.py"
+  },
+  "selfcheckgpt__qwen__gsm8k__reasoning_augmented": {
+    "method": "selfcheckgpt",
+    "family": "qwen",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "num_set__qwen__gsm8k__reasoning_augmented": {
+    "method": "num_set",
+    "family": "qwen",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "eigv__qwen__gsm8k__reasoning_augmented": {
+    "method": "eigv",
+    "family": "qwen",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "deg__qwen__gsm8k__reasoning_augmented": {
+    "method": "deg",
+    "family": "qwen",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "ecc__qwen__gsm8k__reasoning_augmented": {
+    "method": "ecc",
+    "family": "qwen",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "conu__qwen__gsm8k__reasoning_augmented": {
+    "method": "conu",
+    "family": "qwen",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "semantic_entropy__qwen__gsm8k__reasoning_augmented": {
+    "method": "semantic_entropy",
+    "family": "qwen",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "semantic_density__qwen__gsm8k__reasoning_augmented": {
+    "method": "semantic_density",
+    "family": "qwen",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "mars__qwen__gsm8k__reasoning_augmented": {
+    "method": "mars",
+    "family": "qwen",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "verbalized_probability__qwen__gsm8k__reasoning_augmented": {
+    "method": "verbalized_probability",
+    "family": "qwen",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "p_true__qwen__gsm8k__reasoning_augmented": {
+    "method": "p_true",
+    "family": "qwen",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "cot_uq_me__qwen__gsm8k__reasoning_augmented": {
+    "method": "cot_uq_me",
+    "family": "qwen",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "cot_uq_mi__qwen__gsm8k__reasoning_augmented": {
+    "method": "cot_uq_mi",
+    "family": "qwen",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "cot_uq_sar__qwen__gsm8k__reasoning_augmented": {
+    "method": "cot_uq_sar",
+    "family": "qwen",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "cot_uq_sp__qwen__gsm8k__reasoning_augmented": {
+    "method": "cot_uq_sp",
+    "family": "qwen",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "topo_uq__qwen__gsm8k__reasoning_augmented": {
+    "method": "topo_uq",
+    "family": "qwen",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/qa_topology_reason_ged.py",
+    "implementation": "qa_topology_reason_ged"
+  },
+  "max_seq_prob__qwen__triviaqa__reasoning_augmented": {
+    "method": "max_seq_prob",
+    "family": "qwen",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "mean_tok_ent__qwen__triviaqa__reasoning_augmented": {
+    "method": "mean_tok_ent",
+    "family": "qwen",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "max_tok_prob__qwen__triviaqa__reasoning_augmented": {
+    "method": "max_tok_prob",
+    "family": "qwen",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "ppl__qwen__triviaqa__reasoning_augmented": {
+    "method": "ppl",
+    "family": "qwen",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "bsdetector__qwen__triviaqa__reasoning_augmented": {
+    "method": "bsdetector",
+    "family": "qwen",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/bsdetector__qwen__triviaqa__reasoning_augmented.py"
+  },
+  "selfcheckgpt__qwen__triviaqa__reasoning_augmented": {
+    "method": "selfcheckgpt",
+    "family": "qwen",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "num_set__qwen__triviaqa__reasoning_augmented": {
+    "method": "num_set",
+    "family": "qwen",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "eigv__qwen__triviaqa__reasoning_augmented": {
+    "method": "eigv",
+    "family": "qwen",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "deg__qwen__triviaqa__reasoning_augmented": {
+    "method": "deg",
+    "family": "qwen",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "ecc__qwen__triviaqa__reasoning_augmented": {
+    "method": "ecc",
+    "family": "qwen",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "conu__qwen__triviaqa__reasoning_augmented": {
+    "method": "conu",
+    "family": "qwen",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "semantic_entropy__qwen__triviaqa__reasoning_augmented": {
+    "method": "semantic_entropy",
+    "family": "qwen",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "semantic_density__qwen__triviaqa__reasoning_augmented": {
+    "method": "semantic_density",
+    "family": "qwen",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "mars__qwen__triviaqa__reasoning_augmented": {
+    "method": "mars",
+    "family": "qwen",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "verbalized_probability__qwen__triviaqa__reasoning_augmented": {
+    "method": "verbalized_probability",
+    "family": "qwen",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "p_true__qwen__triviaqa__reasoning_augmented": {
+    "method": "p_true",
+    "family": "qwen",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "cot_uq_me__qwen__triviaqa__reasoning_augmented": {
+    "method": "cot_uq_me",
+    "family": "qwen",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "cot_uq_mi__qwen__triviaqa__reasoning_augmented": {
+    "method": "cot_uq_mi",
+    "family": "qwen",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "cot_uq_sar__qwen__triviaqa__reasoning_augmented": {
+    "method": "cot_uq_sar",
+    "family": "qwen",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "cot_uq_sp__qwen__triviaqa__reasoning_augmented": {
+    "method": "cot_uq_sp",
+    "family": "qwen",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "topo_uq__qwen__triviaqa__reasoning_augmented": {
+    "method": "topo_uq",
+    "family": "qwen",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/qa_topology_reason_ged.py",
+    "implementation": "qa_topology_reason_ged"
+  },
+  "max_seq_prob__qwen__humaneval__reasoning_augmented": {
+    "method": "max_seq_prob",
+    "family": "qwen",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "mean_tok_ent__qwen__humaneval__reasoning_augmented": {
+    "method": "mean_tok_ent",
+    "family": "qwen",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "max_tok_prob__qwen__humaneval__reasoning_augmented": {
+    "method": "max_tok_prob",
+    "family": "qwen",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "ppl__qwen__humaneval__reasoning_augmented": {
+    "method": "ppl",
+    "family": "qwen",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "bsdetector__qwen__humaneval__reasoning_augmented": {
+    "method": "bsdetector",
+    "family": "qwen",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/bsdetector__qwen__humaneval__reasoning_augmented.py"
+  },
+  "selfcheckgpt__qwen__humaneval__reasoning_augmented": {
+    "method": "selfcheckgpt",
+    "family": "qwen",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "num_set__qwen__humaneval__reasoning_augmented": {
+    "method": "num_set",
+    "family": "qwen",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "eigv__qwen__humaneval__reasoning_augmented": {
+    "method": "eigv",
+    "family": "qwen",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "deg__qwen__humaneval__reasoning_augmented": {
+    "method": "deg",
+    "family": "qwen",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "ecc__qwen__humaneval__reasoning_augmented": {
+    "method": "ecc",
+    "family": "qwen",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "conu__qwen__humaneval__reasoning_augmented": {
+    "method": "conu",
+    "family": "qwen",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "semantic_entropy__qwen__humaneval__reasoning_augmented": {
+    "method": "semantic_entropy",
+    "family": "qwen",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "semantic_density__qwen__humaneval__reasoning_augmented": {
+    "method": "semantic_density",
+    "family": "qwen",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "mars__qwen__humaneval__reasoning_augmented": {
+    "method": "mars",
+    "family": "qwen",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "verbalized_probability__qwen__humaneval__reasoning_augmented": {
+    "method": "verbalized_probability",
+    "family": "qwen",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "p_true__qwen__humaneval__reasoning_augmented": {
+    "method": "p_true",
+    "family": "qwen",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "cot_uq_me__qwen__humaneval__reasoning_augmented": {
+    "method": "cot_uq_me",
+    "family": "qwen",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "cot_uq_mi__qwen__humaneval__reasoning_augmented": {
+    "method": "cot_uq_mi",
+    "family": "qwen",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "cot_uq_sar__qwen__humaneval__reasoning_augmented": {
+    "method": "cot_uq_sar",
+    "family": "qwen",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "cot_uq_sp__qwen__humaneval__reasoning_augmented": {
+    "method": "cot_uq_sp",
+    "family": "qwen",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "topo_uq__qwen__humaneval__reasoning_augmented": {
+    "method": "topo_uq",
+    "family": "qwen",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/qa_topology_reason_ged.py",
+    "implementation": "qa_topology_reason_ged"
+  },
+  "max_seq_prob__llama__gsm8k__reasoning_augmented": {
+    "method": "max_seq_prob",
+    "family": "llama",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "mean_tok_ent__llama__gsm8k__reasoning_augmented": {
+    "method": "mean_tok_ent",
+    "family": "llama",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "max_tok_prob__llama__gsm8k__reasoning_augmented": {
+    "method": "max_tok_prob",
+    "family": "llama",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "ppl__llama__gsm8k__reasoning_augmented": {
+    "method": "ppl",
+    "family": "llama",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "bsdetector__llama__gsm8k__reasoning_augmented": {
+    "method": "bsdetector",
+    "family": "llama",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/bsdetector__llama__gsm8k__reasoning_augmented.py"
+  },
+  "selfcheckgpt__llama__gsm8k__reasoning_augmented": {
+    "method": "selfcheckgpt",
+    "family": "llama",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "num_set__llama__gsm8k__reasoning_augmented": {
+    "method": "num_set",
+    "family": "llama",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "eigv__llama__gsm8k__reasoning_augmented": {
+    "method": "eigv",
+    "family": "llama",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "deg__llama__gsm8k__reasoning_augmented": {
+    "method": "deg",
+    "family": "llama",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "ecc__llama__gsm8k__reasoning_augmented": {
+    "method": "ecc",
+    "family": "llama",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "conu__llama__gsm8k__reasoning_augmented": {
+    "method": "conu",
+    "family": "llama",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "semantic_entropy__llama__gsm8k__reasoning_augmented": {
+    "method": "semantic_entropy",
+    "family": "llama",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "semantic_density__llama__gsm8k__reasoning_augmented": {
+    "method": "semantic_density",
+    "family": "llama",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "mars__llama__gsm8k__reasoning_augmented": {
+    "method": "mars",
+    "family": "llama",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "verbalized_probability__llama__gsm8k__reasoning_augmented": {
+    "method": "verbalized_probability",
+    "family": "llama",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "p_true__llama__gsm8k__reasoning_augmented": {
+    "method": "p_true",
+    "family": "llama",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "cot_uq_me__llama__gsm8k__reasoning_augmented": {
+    "method": "cot_uq_me",
+    "family": "llama",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "cot_uq_mi__llama__gsm8k__reasoning_augmented": {
+    "method": "cot_uq_mi",
+    "family": "llama",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "cot_uq_sar__llama__gsm8k__reasoning_augmented": {
+    "method": "cot_uq_sar",
+    "family": "llama",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "cot_uq_sp__llama__gsm8k__reasoning_augmented": {
+    "method": "cot_uq_sp",
+    "family": "llama",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "topo_uq__llama__gsm8k__reasoning_augmented": {
+    "method": "topo_uq",
+    "family": "llama",
+    "dataset": "gsm8k",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/qa_topology_reason_ged.py",
+    "implementation": "qa_topology_reason_ged"
+  },
+  "max_seq_prob__llama__triviaqa__reasoning_augmented": {
+    "method": "max_seq_prob",
+    "family": "llama",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "mean_tok_ent__llama__triviaqa__reasoning_augmented": {
+    "method": "mean_tok_ent",
+    "family": "llama",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "max_tok_prob__llama__triviaqa__reasoning_augmented": {
+    "method": "max_tok_prob",
+    "family": "llama",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "ppl__llama__triviaqa__reasoning_augmented": {
+    "method": "ppl",
+    "family": "llama",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "bsdetector__llama__triviaqa__reasoning_augmented": {
+    "method": "bsdetector",
+    "family": "llama",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/bsdetector__llama__triviaqa__reasoning_augmented.py"
+  },
+  "selfcheckgpt__llama__triviaqa__reasoning_augmented": {
+    "method": "selfcheckgpt",
+    "family": "llama",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "num_set__llama__triviaqa__reasoning_augmented": {
+    "method": "num_set",
+    "family": "llama",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "eigv__llama__triviaqa__reasoning_augmented": {
+    "method": "eigv",
+    "family": "llama",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "deg__llama__triviaqa__reasoning_augmented": {
+    "method": "deg",
+    "family": "llama",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "ecc__llama__triviaqa__reasoning_augmented": {
+    "method": "ecc",
+    "family": "llama",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "conu__llama__triviaqa__reasoning_augmented": {
+    "method": "conu",
+    "family": "llama",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "semantic_entropy__llama__triviaqa__reasoning_augmented": {
+    "method": "semantic_entropy",
+    "family": "llama",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "semantic_density__llama__triviaqa__reasoning_augmented": {
+    "method": "semantic_density",
+    "family": "llama",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "mars__llama__triviaqa__reasoning_augmented": {
+    "method": "mars",
+    "family": "llama",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "verbalized_probability__llama__triviaqa__reasoning_augmented": {
+    "method": "verbalized_probability",
+    "family": "llama",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "p_true__llama__triviaqa__reasoning_augmented": {
+    "method": "p_true",
+    "family": "llama",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "cot_uq_me__llama__triviaqa__reasoning_augmented": {
+    "method": "cot_uq_me",
+    "family": "llama",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "cot_uq_mi__llama__triviaqa__reasoning_augmented": {
+    "method": "cot_uq_mi",
+    "family": "llama",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "cot_uq_sar__llama__triviaqa__reasoning_augmented": {
+    "method": "cot_uq_sar",
+    "family": "llama",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "cot_uq_sp__llama__triviaqa__reasoning_augmented": {
+    "method": "cot_uq_sp",
+    "family": "llama",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "topo_uq__llama__triviaqa__reasoning_augmented": {
+    "method": "topo_uq",
+    "family": "llama",
+    "dataset": "triviaqa",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/qa_topology_reason_ged.py",
+    "implementation": "qa_topology_reason_ged"
+  },
+  "max_seq_prob__llama__humaneval__reasoning_augmented": {
+    "method": "max_seq_prob",
+    "family": "llama",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "mean_tok_ent__llama__humaneval__reasoning_augmented": {
+    "method": "mean_tok_ent",
+    "family": "llama",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "max_tok_prob__llama__humaneval__reasoning_augmented": {
+    "method": "max_tok_prob",
+    "family": "llama",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "ppl__llama__humaneval__reasoning_augmented": {
+    "method": "ppl",
+    "family": "llama",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "bsdetector__llama__humaneval__reasoning_augmented": {
+    "method": "bsdetector",
+    "family": "llama",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/bsdetector__llama__humaneval__reasoning_augmented.py"
+  },
+  "selfcheckgpt__llama__humaneval__reasoning_augmented": {
+    "method": "selfcheckgpt",
+    "family": "llama",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "num_set__llama__humaneval__reasoning_augmented": {
+    "method": "num_set",
+    "family": "llama",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "eigv__llama__humaneval__reasoning_augmented": {
+    "method": "eigv",
+    "family": "llama",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "deg__llama__humaneval__reasoning_augmented": {
+    "method": "deg",
+    "family": "llama",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "ecc__llama__humaneval__reasoning_augmented": {
+    "method": "ecc",
+    "family": "llama",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "conu__llama__humaneval__reasoning_augmented": {
+    "method": "conu",
+    "family": "llama",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "semantic_entropy__llama__humaneval__reasoning_augmented": {
+    "method": "semantic_entropy",
+    "family": "llama",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "semantic_density__llama__humaneval__reasoning_augmented": {
+    "method": "semantic_density",
+    "family": "llama",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "mars__llama__humaneval__reasoning_augmented": {
+    "method": "mars",
+    "family": "llama",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "verbalized_probability__llama__humaneval__reasoning_augmented": {
+    "method": "verbalized_probability",
+    "family": "llama",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "p_true__llama__humaneval__reasoning_augmented": {
+    "method": "p_true",
+    "family": "llama",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "cot_uq_me__llama__humaneval__reasoning_augmented": {
+    "method": "cot_uq_me",
+    "family": "llama",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "cot_uq_mi__llama__humaneval__reasoning_augmented": {
+    "method": "cot_uq_mi",
+    "family": "llama",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "cot_uq_sar__llama__humaneval__reasoning_augmented": {
+    "method": "cot_uq_sar",
+    "family": "llama",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "cot_uq_sp__llama__humaneval__reasoning_augmented": {
+    "method": "cot_uq_sp",
+    "family": "llama",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "topo_uq__llama__humaneval__reasoning_augmented": {
+    "method": "topo_uq",
+    "family": "llama",
+    "dataset": "humaneval",
+    "setting": "reasoning_augmented",
+    "script": "UQ-methods/qa_topology_reason_ged.py",
+    "implementation": "qa_topology_reason_ged"
+  },
+  "mars__qwen__triviaqa__answer_only": {
+    "method": "mars",
+    "family": "qwen",
+    "dataset": "triviaqa",
+    "setting": "answer_only",
+    "script": "UQ-methods/paper_author_aligned.py",
+    "implementation": "paper_author_aligned"
+  },
+  "p_true__llama__triviaqa__answer_only": {
+    "method": "p_true",
+    "family": "llama",
+    "dataset": "triviaqa",
+    "setting": "answer_only",
+    "script": "UQ-methods/lm_polygraph.py",
+    "implementation": "lm_polygraph"
+  },
+  "bsdetector__deepseek__triviaqa__answer_only": {
+    "method": "bsdetector",
+    "family": "deepseek",
+    "dataset": "triviaqa",
+    "setting": "answer_only",
+    "script": "UQ-methods/bsdetector__deepseek__triviaqa__answer_only.py"
+  }
+}
