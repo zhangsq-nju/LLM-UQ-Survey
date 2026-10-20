@@ -19,7 +19,7 @@ This repository implements the survey's evaluation pipeline for 21 uncertainty q
 ## Getting Started
 
 ```bash
-git clone git@github.com:Mark-Liangs/LLM-UQ-Survey.git
+git clone https://github.com/zhangsq-nju/LLM-UQ-Survey.git
 cd LLM-UQ-Survey
 conda create -n llm-uq-survey python=3.11
 conda activate llm-uq-survey
